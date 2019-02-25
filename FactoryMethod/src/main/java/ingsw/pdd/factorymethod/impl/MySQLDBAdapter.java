@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 import java.util.Properties;
-import ingsw.pdd.factorymethod.IDBAdapter;
+import ingsw.pdd.factorymethod1.IDBAdapter;
 import ingsw.pdd.factorymethod.util.PropertiesUtil;
 
 public class MySQLDBAdapter implements IDBAdapter {

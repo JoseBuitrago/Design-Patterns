@@ -7,12 +7,12 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 import java.util.Properties;
 import oracle.jdbc.OracleDriver;
-import ingsw.pdd.factorymethod.IDBAdapter;
+import ingsw.pdd.factorymethod1.IDBAdapter;
 import ingsw.pdd.factorymethod.util.PropertiesUtil;
 
 public class OracleDBAdapter implements IDBAdapter {
 
-    private static final String DB_PROPERTIES = "META-INF/DBOracle.properties";
+    private static final String DB_PROPERTIES = "META_INF/DBOracle.properties";
 
     private static final String DB_SERVICE_PROP = "service";
     private static final String DB_HOST_PROP = "host";

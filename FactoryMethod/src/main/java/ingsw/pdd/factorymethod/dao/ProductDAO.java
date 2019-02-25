@@ -5,8 +5,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-import ingsw.pdd.factorymethod.IDBAdapter;
-import ingsw.pdd.factorymethod.DBFactory;
+import ingsw.pdd.factorymethod1.IDBAdapter;
+import ingsw.pdd.factorymethod1.DBFactory;
 import ingsw.pdd.factorymethod.entity.Product;
 
 public class ProductDAO {
