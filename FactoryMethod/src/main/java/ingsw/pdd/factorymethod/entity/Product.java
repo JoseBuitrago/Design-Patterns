@@ -1,12 +1,12 @@
 package ingsw.pdd.factorymethod.entity;
 
 public class Product {
-    private Long idProduct;
+    private Long idProductos;
     private String productName;
     private double price;
 
     public Product(Long idProduct, String productName, double price) {
-        this.idProduct = idProduct;
+        this.idProductos = idProduct;
         this.productName = productName;
         this.price = price;
     }
@@ -15,11 +15,11 @@ public class Product {
     }
 
     public Long getIdProduct() {
-        return idProduct;
+        return idProductos;
     }
 
     public void setIdProduct(Long idProduct) {
-        this.idProduct = idProduct;
+        this.idProductos = idProduct;
     }
 
     public String getProductName() {
@@ -40,6 +40,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" + "idProduct=" + idProduct + ", productName=" + productName + ", price=" + price + '}';
+        return "Product{" + "idProduct=" + idProductos + ", productName=" + productName + ", price=" + price + '}';
     }
 }

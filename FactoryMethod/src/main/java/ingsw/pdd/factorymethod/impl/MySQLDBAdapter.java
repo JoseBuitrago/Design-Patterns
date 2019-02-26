@@ -9,7 +9,7 @@ import ingsw.pdd.factorymethod.util.PropertiesUtil;
 
 public class MySQLDBAdapter implements IDBAdapter {
 
-    private static final String DB_PROPERTIES = "META-INF/DBMySQL.properties";
+    private static final String DB_PROPERTIES = "META_INF/DBMySQL.properties";
 
     //Propiedades de los archivos properties
     private static final String DB_NAME_PROP = "dbname";
