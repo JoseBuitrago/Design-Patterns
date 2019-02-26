@@ -3,6 +3,7 @@ package ingsw.pdd.singleton;
 import java.util.Properties;
 import ingsw.pdd.singleton.util.PropertiesUtil;
 
+
 public class ConfigurationSingleton {
 
     private static ConfigurationSingleton singleton;
