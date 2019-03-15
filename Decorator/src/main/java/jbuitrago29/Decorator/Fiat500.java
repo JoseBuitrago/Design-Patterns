@@ -6,6 +6,7 @@ public class Fiat500 extends Auto {
 		return "Fiat500 modelo 2010";
 	}
 	
+	
 	@Override
 	public float getPrecio() {
 		return 15000;
